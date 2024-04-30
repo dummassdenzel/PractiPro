@@ -13,6 +13,7 @@ import { Router } from '@angular/router';
 import { authGuard } from './guard/auth.guard';
 import { AuthService } from './services/auth.service';
 import { HttpClientModule } from '@angular/common/http';
+import { AdminSubmissionComponent } from './components/admin-submission/admin-submission.component';
 
 
 @Component({
