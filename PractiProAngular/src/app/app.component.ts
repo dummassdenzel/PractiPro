@@ -16,12 +16,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { AdminSubmissionComponent } from './components/admin-submission/admin-submission.component';
 import { AdminStudentsubmittedreqComponent } from './components/admin-studentsubmittedreq/admin-studentsubmittedreq.component';
 import { AdminWeeklyaccomplismentComponent } from './components/admin-weeklyaccomplisment/admin-weeklyaccomplisment.component';
+import { AdminDatetimeComponent } from './components/admin-datetime/admin-datetime.component';
+import { DocumentationComponent } from './components/documentation/documentation.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, LoginComponent, DashboardComponent, SidebarComponent, FeedbackComponent, AboutusComponent, NavbarComponent, ProfileComponent, HttpClientModule,AdminWeeklyaccomplismentComponent,],
+  imports: [RouterOutlet, LoginComponent, DashboardComponent, SidebarComponent, FeedbackComponent, AboutusComponent, NavbarComponent, ProfileComponent, HttpClientModule,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
